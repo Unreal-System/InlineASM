@@ -46,7 +46,7 @@ namespace InlineASM
 
                 Int32 Result = scm(4, 9); // 设置接收对象接收非托管方法运算值
 
-                Console.WriteLine(Result.ToString();
+                Console.WriteLine(Result.ToString());
             }
             catch (Exception ex)
             {
