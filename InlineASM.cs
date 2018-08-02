@@ -24,10 +24,6 @@ namespace InlineASM
 
         internal InlineASM()
         {
-            Console.Write("请输入加数A:");
-            Int32 a = Convert.ToInt32(Console.ReadLine());
-            Console.Write("请输入加数B:");
-            Int32 b = Convert.ToInt32(Console.ReadLine());
             Byte[] shellcode = new Byte[]
             {
                 0x8B, 0x44, 0x24, 0x08, // mov eax,dword ptr [esp+8]
@@ -48,9 +44,9 @@ namespace InlineASM
 
                 ShellcodeMethod scm = (ShellcodeMethod)Marshal.GetDelegateForFunctionPointer(shellcodePtr, typeof(ShellcodeMethod)); // 获取载体的函数指针
 
-                Int32 Result = scm(a, b); // 设置接收对象接收非托管方法运算值
+                Int32 Result = scm(4, 9); // 设置接收对象接收非托管方法运算值
 
-                Console.WriteLine("和:" + Result);
+                Console.WriteLine(Result.ToString();
             }
             catch (Exception ex)
             {
