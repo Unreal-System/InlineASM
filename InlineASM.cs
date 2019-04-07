@@ -3,11 +3,7 @@
  https://blogs.msdn.microsoft.com/devinj/2005/07/13/dynamically-writing-and-executing-native-assembly-in-c/
  http://www.cnblogs.com/gc2013/p/4660430.html
  突发奇想熬夜想到了之前怎么想都想不出来的操作
- By: UnrealSystem
- Welcome Join To Group
- Please Decryption this code
- 68747470733A2F2F742E6D652F556E7265616C53797374656D
- THIS FILE USE MIT LICENSE. FOR OUT C# LOVER.
+ THIS FILE USE MIT LICENSE.
  */
 
 using System;
